@@ -28,4 +28,8 @@
 
 - The class 'hidden' is used to remobe the image from the DOM on mobile screens.
 
-- the 'md:block' class shows the image on desktop screens.
+- The 'md:block' class shows the image on desktop screens.
+
+- To implement the /hero-mobile.png to display for mobile devices, I copied pasted the previous \<Image> element, changed the source to /hero-mobile.png, updated the width and height, and styled it using 'block md:hidden' to ensure it is only displayed on mobile screens.
+
+- T/F : Images without dimesnions and wbe fonts are common causes of layout shfit due to the browswer having to download additional resources... True!
