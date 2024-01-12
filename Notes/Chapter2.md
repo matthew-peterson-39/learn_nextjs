@@ -18,6 +18,11 @@
 ```.tsx 
 <h1 className="text-blue-500">I'm blue!</h1>
 ```
+- One of the benefits of Tailwind is that when you add or delete an element, you no longer need to worry about maintaining a seperate style sheets, style collisions, or the size of your CSS bundle. This benefit scales as the program scales as well.
+
+- create-next-app will ask during the setup process if you want to use Tailwind. Selecting yes, enables the project to be setup and configured for Tailwind use.
+
+- /app/pages.tsx shows an example of the Tailwind classes in use for this tutorial
 
 
 
