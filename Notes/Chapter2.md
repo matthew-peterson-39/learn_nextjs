@@ -24,5 +24,10 @@
 
 - /app/pages.tsx shows an example of the Tailwind classes in use for this tutorial
 
+# CSS Modules 
+
+- [CSS_Modules](https://nextjs.org/docs/basic-features/built-in-css-support) allow one to scope CSS to a component by automatically creating unique class, names so you dont have to worry about style collision. 
+
+- The same styling previously added could be done with a CSS Module instead of Tailwind styling.
 
 
