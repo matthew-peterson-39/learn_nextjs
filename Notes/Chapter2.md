@@ -6,4 +6,4 @@
 
 - Though you can import the global.css  within any component, the best practice is to import at the top-level component.
 
-- Typical Next.js app will use the RootLayout as the top-level component.
+- Typical Next.js app will use the RootLayout as the top-level component. 
