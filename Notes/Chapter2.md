@@ -7,3 +7,5 @@
 - Though you can import the global.css  within any component, the best practice is to import at the top-level component.
 
 - Typical Next.js app will use the RootLayout as the top-level component. 
+
+- Once done importing, there was a noticeable difference in the page layout. This styling came from the global.css file, specifically the @tailwind directives.
