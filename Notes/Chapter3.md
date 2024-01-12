@@ -13,3 +13,13 @@
 # Adding a Primary Font
 
 - Import 'Inter' font from the next/font/google module. Then specify the font subset.
+
+# Why Optimize Images?
+
+- Next.js helps to optimize images by ensuring the Developer does not have to manually ensure the image is responsive on different screen sizes, specify the image size for different devices, prevent layout shift as the images loads, or lazy load images that are outside the uesr's viewport.
+
+- using next/image component automatically optimize images
+
+# The \<Image> Component
+
+- This component is an extension of the HTML \<img> element
