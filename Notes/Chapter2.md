@@ -30,4 +30,6 @@
 
 - The same styling previously added could be done with a CSS Module instead of Tailwind styling.
 
+- One of the benefits of CSS modules is they provide a way to make CSS classes locally scoped to components by default, reducing the risk of styling conflicts. 
+
 
