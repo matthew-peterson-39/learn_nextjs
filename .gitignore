@@ -1,0 +1,56 @@
+
+# Ignore node_modules
+node_modules/
+
+# Ignore build output
+.next/
+
+# Ignore development environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore cache files
+.cache/
+out/
+dist/
+
+# Ignore log files
+logs/
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore Next.js export files
+__export/
+
+# Ignore .env files (environment variables should not be committed)
+.env*
+
+# Ignore development and editor files
+*.log
+*.pid
+*.seed
+*.db
+*.sqlite
+*.db-shm
+*.db-wal
+*.sublime-*
+*.swn
+*.swo
+*.swp
+*.sublime-workspace
+*.vscode/
+.vscode/
+.idea/
+*.idea/
+
+# Ignore OS-specific files and directories
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+Icon?
+npm-debug.log*
+yarn-error.log*
