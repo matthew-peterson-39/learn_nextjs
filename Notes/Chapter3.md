@@ -22,4 +22,10 @@
 
 # The \<Image> Component
 
-- This component is an extension of the HTML \<img> element
+- This component is an extension of the HTML \<img> element.
+
+- When using the \<Image> element, it is good practice to set the width and height of your images to avoid layout shift, these should be an aspect ratio identical to the source image.
+
+- The class 'hidden' is used to remobe the image from the DOM on mobile screens.
+
+- the 'md:block' class shows the image on desktop screens.
