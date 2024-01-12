@@ -32,4 +32,12 @@
 
 - One of the benefits of CSS modules is they provide a way to make CSS classes locally scoped to components by default, reducing the risk of styling conflicts. 
 
+# Using the clsx Library to Toggle Class Names
 
+- This is used for conditionally styling an element based on state or some other condition
+
+- [clsx](https://www.npmjs.com/package/clsx) is a lirbary that lest you toggle class names. The [documentation](https://github.com/lukeed/clsx) has all necessary details.
+
+- A brief overview of using clsx is seen in the following example. Suppose that you want to create an InvoiceStatus that accepts status. The status may be 'pending' or 'paid'. If it is 'paid, you may want it to be green, while if it is 'pending you may want it to be gray.
+
+- cls allows one to conditionally format this element to ensure the proper styling is applied depending on the status.
