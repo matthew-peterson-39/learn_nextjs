@@ -27,6 +27,7 @@ __export/
 
 # Ignore .env files (environment variables should not be committed)
 .env*
+.env
 
 # Ignore development and editor files
 *.log
