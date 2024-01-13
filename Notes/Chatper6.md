@@ -10,6 +10,19 @@
 
 - Then, change the .env.example file within the local project directory. To be '.env' and paste the copied snippet into here.
 
+- Double check to make sure the .env file is in the .gitignore to avoid leaking sensitive data to github.
+
+- Finally install the Vercel Postgres SDK
+
+```bash 
+npm i @vercel/postgres
+```
+
+# Seed Database
+
+- Seed the databse using the seed.js file found in /scripts.
+
+
 ## Deployment Error
 
 - It is important to note where you package.json file exists in your project directory when selecting the root directory. For instance, I altered my directory from the tutorial becasue I added an additional directory for note taking. This change required me to explictly define the root directory instead of using the preconfigured option of './'.
