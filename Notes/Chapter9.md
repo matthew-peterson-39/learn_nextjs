@@ -42,3 +42,18 @@
 - When adding streaming to the card component, wrapping each card in a suspense could lead to a popping effect as the cards load in which is not good UX design.
 
 - To create a staggered effect, you can group the cards using a wrapper component.
+
+# Deciding Where to Place your Suspense Boundaries
+
+- There are a few things to consider here:
+1. How you want the user to experience the page as it streams
+2. What content you want to prioritize.
+3. If the components rely on data fetching.
+
+- Where you palce a suspense boundary will vary depending on application.
+
+- In general, good practice is to move your data fetches down to the components that need it, then wrap those compoentns in Suspense.
+
+- Suspense is a powerful API that can help create a better user experience. Have fun and experiment with it!
+
+
