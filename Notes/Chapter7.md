@@ -46,6 +46,21 @@
 - Q: What is one advantage of using React Server Components to fetch data?
 - A: They allow you to query the databse directly from the server without an additional API layer.
 
+# What are request waterfalls?
 
+- A "waterfall" refers to a sequence of network requests that depend on the completion of previous requests. In the case of data fetching, each request can only begin once the previous request has returned data.
 
+- Though this pattern is not necessarily bad, there are cases where you want waterfalls because you want a condition to be satisifed before you make the next request.
+
+- For example, you might want to fetch a user's ID and profile information first. Once you have the ID, you then proceeed to fetch their list of frients. This is a clear example of how one request is relient on the data returned from the previous request.
+
+- However, when not done intentionally, a waterfall can impact performance
+
+# Paralle Data Fetching
+
+- To combat waterfalls, one can request data at the same time in parallel.
+
+- In JavaScript one can use Promise.all() or Promise.allSettled() to initiate the promises at the same time.
+
+- The downside of this technique is seen when one data request is slower than the others.
 
