@@ -31,3 +31,7 @@
 - By default @vercel/postgres doesnt set its own caching semantics. This allows the framework to set its own static and dynamic behavior
 
 - You can use a Next.js API called unstable_noStore isnide your server components or data fetching functions to opt out of static rendering. Let's add this.
+
+# Simulating Slow Data Fetch
+
+- The purpose of this implementation is to highlight how with dynamic rendering, the application is only as fast as the slowest data fetch.
